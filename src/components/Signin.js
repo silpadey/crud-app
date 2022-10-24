@@ -16,7 +16,7 @@ function Signin() {
                 <p className="boxhead">Sign In</p>
                 <input type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
                 <input type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} />
-                <button type="submit" className="btn">Sign In</button>
+                <button type="submit" className="btn">Sign In Now</button>
             </form>
         </>
     )
